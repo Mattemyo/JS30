@@ -1,0 +1,63 @@
+body {
+    background: url("https://images.pexels.com/photos/625644/pexels-photo-625644.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: blue !important;
+    height: auto;
+    line-height: normal;
+    max-height: none;
+    min-height: 0px;
+}
+h1{
+    padding-top: 60px;
+}
+.buttons{
+    font-size: 50px;
+    color: black;
+    padding: 60px;
+    margin: 60px;
+}
+button:focus {
+    outline: 0;
+}
+div.buttons button{
+    margin: 2px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 0px 20px;
+    opacity: 0.8;
+}
+br{
+    display: block;
+    height: 1px;
+
+}
+span{
+    color: yellow !important;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0;
+
+}
+.pick{
+    background-color: black !important;
+    color: yellow;
+    box-shadow: 6px 2px 2px 2px white;
+    transform: scale(1.1);
+
+}
+#explain{
+    background-color: black;
+    opacity: 0.9;
+
+
+}
+h4{
+    color: white !important;
+    font-size: 20px !important;
+
+}
