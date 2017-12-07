@@ -101,7 +101,8 @@ body {
   width:100%;
   background:#ffc600;
   flex:0;
-  /* looks nicer when it starts at zero */
+  /* looks nicer when it starts at zero
+   */
   flex-basis:0%; 
 }
 

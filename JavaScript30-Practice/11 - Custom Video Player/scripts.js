@@ -23,7 +23,6 @@ function skip(){
     video.currentTime += parseFloat(this.dataset.skip);
 }
 
-console.log(skipButtons);
 
 function handleRangeUpdate(){
 
