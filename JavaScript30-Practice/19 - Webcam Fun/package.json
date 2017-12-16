@@ -1,14 +1,21 @@
 {
-  "name": "gum",
+  "name": "drummy",
   "version": "1.0.0",
-  "description": "",
   "main": "scripts.js",
   "scripts": {
-    "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
+    "build": "browserify scripts.js -o bundle.js",
+    "watch": "watchify scripts.js -o bundle.js",
+    "start": "browser-sync start --server --files '*css, *html, *.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mattemyo",
+  "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.12.5"
-  }
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "uniq": "^1.0.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "description": "",
+  "dependencies": {}
 }
