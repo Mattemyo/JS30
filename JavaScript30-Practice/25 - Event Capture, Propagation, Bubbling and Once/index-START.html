@@ -39,6 +39,20 @@
 
 <button></button>
 <script>
+  const divs = document.querySelector('div');
+  const button = document.querySelector('button');
+  
+  function logText(e) {
+    e.stopPropagation(); // stop bubbling, only inner element(s) get clicked
+  }
+
+divs.forEach(x => div.addEventlistener('click', logtext,{
+  capture: false,
+  once: true
+}));
+
+button.addEventListener('click', { once : true}); //remove eventlistener only one click, important for checkout
+
 
 </script>
 </body>
